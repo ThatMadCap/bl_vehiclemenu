@@ -15,12 +15,12 @@
 :root {
     font-size: 62.5%;
 
-    --primary: theme('colors.primary');
-    --secondary: theme('colors.secondary');
-    --accent: theme('colors.accent');
+    --primary: theme('colors.yume_grey2');
+    --secondary: theme('colors.yume_black2');
+    --accent: theme('colors.yume_blue');
 
-    --text-primary: theme('colors.txt-primary');
-    --text-secondary: theme('colors.txt-secondary');
+    --text-primary: theme('colors.yume_white');
+    --text-secondary: theme('colors.yume_grey2');
 
     color: var(--text-primary);
 }
@@ -32,13 +32,10 @@ html, body {
     overflow: hidden;
 }
 
-
-
 /* Icons | better than trying to find fa or bi icons */
-
 .icon {
-    width: 60%; /* Set the desired width */
-    aspect-ratio: 1/1; /* Set the aspect ratio */
+    width: 60%;
+    aspect-ratio: 1/1;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;

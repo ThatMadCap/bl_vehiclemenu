@@ -111,4 +111,25 @@
 
 <div
     transition:fly={{ y: 100, duration: 150 }}
-class="-bottom-[2vh] left-1/2 -z-[100] -translate-x-1/2 absolute w-[42vh] blur-sm from-[#171717] to-transparent h-[15vh] bg-gradient-to-t "/>
+    class="menu-background"
+/>
+
+<style>
+    .menu-background {
+        position: absolute;
+        bottom: -2vh;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 45vh;
+        height: 17vh;
+        background: radial-gradient(
+            ellipse at top,
+            rgba(23, 23, 23, 0.8) 0%,
+            rgba(23, 23, 23, 0.6) 70%,
+            rgba(23, 23, 23, 0.4) 100%
+        );
+        border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+        filter: blur(10px);
+        z-index: -100;
+    }
+</style>

@@ -107,7 +107,7 @@
     {/if}
 
     <div
-        style="background-image: url('https://cdn.discordapp.com/attachments/1068663854143389788/1074878298498281554/HUD_-_Target_Menu.png');"
+        style="background-color: #00000090"
         class="absolute w-screen bg-cover bg-no-repeat bg-center h-screen top-0 left-0 dev-image"
     />
 </div>
